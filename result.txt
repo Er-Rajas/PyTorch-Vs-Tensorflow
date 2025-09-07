@@ -1,0 +1,51 @@
+Tensor Flow: 
+MLP CPU :
+MAE: 0.4218
+RMSE: 0.5953
+R²: 0.9925
+Training time: 14.59 seconds
+
+LSTM CPU:
+MAE: 0.2269
+RMSE: 0.3805
+R²: 0.9969
+Training time: 22.72 seconds
+
+Tensor Flow GPU :
+MLP GPU
+MAE: 0.4218
+RMSE: 0.5953
+R²: 0.9925
+Training time: 13.92 seconds
+
+LSTM GPU:
+MAE: 0.2269
+RMSE: 0.3805
+R²: 0.9969
+Training time: 21.33 seconds
+
+PyTorch
+MLP CPU:
+MAE :0.2875
+rmse = 0.4510
+r2 = 0.9957
+Training Time = 3.625176429748535
+
+MLP GPU :
+MAE :0.2875
+rmse = 0.4510
+r2 = 0.9957
+Training Time = 9.587108373641968
+
+LSTM CPU :
+MAE :0.0141
+rmse = 0.0238
+r2 = 0.9947
+Training Time = 3.625176429748535
+
+LSTM GPU :
+MAE :0.0209
+rmse = 0.0338
+r2 = 0.9892
+Training Time = 9.736524105072021
+
